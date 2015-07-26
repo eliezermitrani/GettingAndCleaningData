@@ -1,7 +1,6 @@
 # Getting and cleaning data course project
 
 This is my results from the course proyect in the Data Science Specialization.
-You will find 3 files in my repo: the R code, the codebook and the tidy dataset.
 
 
 ## Goal
@@ -14,12 +13,9 @@ The data is available at:
 
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
-The aim of the project is to clean and extract usable data from the above zip file. R script called run_analysis.R that does the following: - Merges the training and the test sets to create one data set. - Extracts only the measurements on the mean and standard deviation for each measurement. - Uses descriptive activity names to name the activities in the data set - Appropriately labels the data set with descriptive variable names. - From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+You will find 4 files in my repo: 
 
-In this project, you find:
-
-    run_analysis.R : the R-code run on the data set
-    Tidy.txt : the clean data extracted from the original data using run_analysis.R
-    CodeBook.md : the CodeBook reference to the variables in Tidy.txt
-    README.md : the analysis of the code in run_analysis.R
-    analysis.html : the html version of README.md
+    run_analysis.R : the R-code.
+    tidydata.txt : the clean data extracted from the original data using run_analysis.R
+    CodeBook.md : the CodeBook reference to the variables in the tidy dataset.
+    README.md : Your are actually reading this file right now.
