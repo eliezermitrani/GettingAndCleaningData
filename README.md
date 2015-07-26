@@ -32,3 +32,14 @@ You will find 4 files in my repo:
 8. The name of the measurements are a little hard to understand. So we must to convert the name of the variables to something more understandable. There are some common words. For example "t" stands for time, "f" for frequency, "Acc" for acceleration, "Gyro" for gyroscope and "Mag" for magnitude. I used gsub, part of grep package.
 9. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject. To do this, I used the plyr package.
 10. Finally, I export the tidy data to a TXT file
+
+##Run from command line
+
+    Clone this repo
+
+    Try to modify your WD and then run the script:
+
+    $ Rscript run_analysis.R
+
+    Look for the final dataset at tidydata.txt
+
