@@ -1,4 +1,4 @@
-# Getting and cleaning data course project
+# Getting and cleaning data course project :bowtie:
 
 This is my results from the course proyect in the Data Science Specialization.
 
@@ -35,11 +35,11 @@ You will find 4 files in my repo:
 
 ##Run from command line
 
-    Clone this repo
+Clone this repo
 
-    Try to modify your WD and then run the script:
+Try to modify your WD and then run the script:
 
     $ Rscript run_analysis.R
 
-    Look for the final dataset at tidydata.txt
+Look for the final dataset at tidydata.txt
 
