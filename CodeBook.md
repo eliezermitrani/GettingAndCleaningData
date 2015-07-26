@@ -13,11 +13,16 @@ The tidydata.txt file contains 180 observations in 68 variables.
 
 ####ID
 A unique identifier of the subject who performed the activity for each window sample. Its range is from 1 to 30. 
-- class: int  1 1 1 1 1 1 2 2 2 2 ...
 
 ####activity
-The action performed by the subject
-- class: Factor w/ 6 levels "LAYING","SITTING",..: 1 2 3 4 5 6 1 2 3 4 ...
+The action performed by the subject:
+
+- 1 WALKING
+- 2 WALKING_UPSTAIRS
+- 3 WALKING_DOWNSTAIRS
+- 4 SITTING
+- 5 STANDING
+- 6 LAYING 
 
 ####The measurements
 
