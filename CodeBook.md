@@ -11,23 +11,26 @@ The tidydata.txt file contains 180 observations in 68 variables.
 
 ##The dataset includes the following files:
 
-ID
+####ID
 A unique identifier of the subject who performed the activity for each window sample. Its range is from 1 to 30. 
-class: int  1 1 1 1 1 1 2 2 2 2 ...
+- class: int  1 1 1 1 1 1 2 2 2 2 ...
 
-activity
+####activity
 The action performed by the subject
-class: Factor w/ 6 levels "LAYING","SITTING",..: 1 2 3 4 5 6 1 2 3 4 ...
+- class: Factor w/ 6 levels "LAYING","SITTING",..: 1 2 3 4 5 6 1 2 3 4 ...
 
 The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals:
 - TimeAccelerometer-XYZ
 - TimeGyroscope-XYZ.
+
 Similarly, the acceleration signal was then separated into body and gravity acceleration signals:
 - TimeBodyAccelerometer-XYZ
 - TimeGravityAccelerometer-XYZ).  
+
 Subsequently, the body linear acceleration and angular velocity were derived in time to obtain Jerk signals:
 - TimeBodyAccelerometerJerk-XYZ
 - TimeBodyGyroscopeJerk-XYZ).
+
 Finally a Fast Fourier Transform (FFT) was applied to some of these signals producing:
 - FreqBodyAccelerometer-XYZ
 - FreqBodyAccelerometerJerk-XYZ
